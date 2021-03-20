@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <ConfigDir>.\..\..\..\config</ConfigDir>
+  </PropertyGroup>
+
+  <Import Project="$(ConfigDir)\properties\Common.props" />
+  <Import Project="$(ConfigDir)\properties\Test.props" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\HubspotClientDotnet.HttpClient\HubspotClientDotnet.HttpClient.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WireMock.Net" Version="1.4.7" />
+  </ItemGroup>
+
+  <ItemGroup> 
+    <Content Include="fixtures\**"> 
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> 
+    </Content> 
+  </ItemGroup>
+
+</Project>

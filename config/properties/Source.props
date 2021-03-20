@@ -1,0 +1,10 @@
+<Project>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AllowedReferenceRelatedFileExtensions>.pdb;.xml</AllowedReferenceRelatedFileExtensions>
+    <CodeAnalysisRuleSet>$(ConfigDir)\rulesets\Source.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+</Project>

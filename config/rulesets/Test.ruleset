@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="HubspotClientDotnet.Test" Description="Rules for HubspotClientDotnet test projects" ToolsVersion="15.0">
+  <Rules AnalyzerId="Stylecop.Analyzers"  RuleNamespace="Stylecop.Analyzers">
+    <Rule Id="SA0001" Action="None" />
+    <!-- Disable XmlCommentAnalysisDisabled rule -->
+  </Rules>
+</RuleSet>

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <ConfigDir>.\..\..\config</ConfigDir>
+  </PropertyGroup>
+
+  <Import Project="$(ConfigDir)\properties\Common.props" />
+  <Import Project="$(ConfigDir)\properties\Source.props" />
+
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <Title>HubspotClientDotnet.HttpClient</Title>
+    <Description>Implementation using an HttpClient to access the Hubspot API.</Description>
+    <AssemblyName>HubspotClientDotnet.HttpClient</AssemblyName>
+    <RootNamespace>HubspotClientDotnet.HttpClient</RootNamespace>
+    <PackageId>HubspotClientDotnet.HttpClient</PackageId>
+    <PackageTags>hubspot;hubspot client;hubspot client http;</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HubspotClientDotnet.Core\HubspotClientDotnet.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <ConfigDir>.\..\..\config</ConfigDir>
+  </PropertyGroup>
+
+  <Import Project="$(ConfigDir)\properties\Common.props" />
+  <Import Project="$(ConfigDir)\properties\Source.props" />
+
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <Title>HubspotClientDotnet.Core</Title>
+    <Description>A dotnet implementation to easily consume the Hubspot Rest API.</Description>
+    <AssemblyName>HubspotClientDotnet.Core</AssemblyName>
+    <RootNamespace>HubspotClientDotnet.Core</RootNamespace>
+    <PackageId>HubspotClientDotnet.Core</PackageId>
+    <PackageTags>hubspot;hubspot client;hubspot client core;</PackageTags>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <ConfigDir>.\..\..\..\config</ConfigDir>
+  </PropertyGroup>
+
+  <Import Project="$(ConfigDir)\properties\Common.props" />
+  <Import Project="$(ConfigDir)\properties\Test.props" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\HubspotClientDotnet.HttpClient\HubspotClientDotnet.HttpClient.csproj" />
+  </ItemGroup>
+
+  <ItemGroup> 
+    <Content Include="fixtures\**"> 
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> 
+    </Content> 
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.16.1" />
+  </ItemGroup>
+
+</Project>
