@@ -5,7 +5,7 @@
     <Copyright>Copyright (c) Jose Manuel Marron Ruiz. All rights reserved.\nLicensed under the MIT license. See LICENSE file in the project root for full license information.</Copyright>
     <Authors>manemarron</Authors>
     <PackageProjectUrl>https://github.com/manemarron/hubspot-client-dotnet/</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/manemarron/hubspot-client-dotnet/blob/main/LICENSE</PackageLicenseUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/manemarron/hubspot-client-dotnet/</RepositoryUrl>

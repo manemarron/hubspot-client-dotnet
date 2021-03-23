@@ -7,4 +7,8 @@
     <CodeAnalysisRuleSet>$(ConfigDir)\rulesets\Source.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
 </Project>
