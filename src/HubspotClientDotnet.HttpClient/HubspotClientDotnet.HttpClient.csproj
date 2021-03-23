@@ -8,7 +8,7 @@
   <Import Project="$(ConfigDir)\properties\Source.props" />
 
   <PropertyGroup>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Title>HubspotClientDotnet.HttpClient</Title>
     <Description>Implementation using an HttpClient to access the Hubspot API.</Description>
     <AssemblyName>HubspotClientDotnet.HttpClient</AssemblyName>
